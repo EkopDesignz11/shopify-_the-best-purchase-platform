@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify</title>
+
+    <link rel="stylesheet" href="fontawesome/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- SCROLL TO TOP -->
+    <div id="progress">
+        <span id="progress-value">&UpArrow;</span>
+    </div>
+<!-- HEADER SECTION -->
+    <header>
+        <i class="fa fa-bars" id="menu-bar"></i>
+          <div class="logo"><span class="fa fa-shopping-bag"></span>Shopify</div>
+          <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="./multi-pages/shop.html">Shop</a></li>
+              <li><a href="./multi-pages/blog.html">Blog</a></li>
+              <li><a href="./multi-pages/about.html">About</a></li>
+              <li><a href="./multi-pages/contact.html">Contact</a></li>
+          </ul>
+
+
+          <div class="icons">
+                <div id="menu-btn" class="fa fa-bars"></div>
+                <i class="fa fa-moon-o" onclick="toggleDarkMode()"></i>
+                <!-- <i class="fa fa-sun-o" onclick="themeToggler()"></i> -->
+                <button class="cart-btn" onclick="toggleCart">
+                    <i class="fa fa-shopping-cart "></i>
+                    <small class="cart-qty" id="cartQty">0</small>
+                </button>
+                <!-- <a href="" class="fa fa-shopping-cart"></a> -->
+                <div id="search-btn" class="fa fa-search"></div>
+                <div class="search-form">
+                    <div id="close-search" class="fa fa-times"></div>
+             
+                    <form action="">
+                        <input type="search" name="" placeholder="search here...." id="search-box">
+                        <label for="search-box" class="fa fa-search"></label>
+                    </form>
+                </div>
+              
+             </div>
+             
+                <a href="./Admin login.html"><i class="fa fa-user"></i></a>
+            </div>
+
+
+
+
+
+
+
+
+          <!-- <button class="btn" onclick="document.getElementById('').style.display = 'block'"><a href="">Get a Quote</a></button> -->
+          <a><button class="btn" onclick="document.getElementById('id01').style.display = 'block'">Login</button>
+          
+          <!-- The Form -->
+          <div id="id01" class="modal">
+              <span onclick="document.getElementById('id01').style.display = 'none'" class="close" title="Close moadl">&times;</span>
+          
+              <!-- Form Content -->
+              <form class="modal-content animate" action="/action-page.php">
+                   <div class="imgcontainer" style="text-align: center;">
+                  <i class="fa fa-user" id="icon2"></i>
+              </div>
+              <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <input class="txt" type="text" placeholder="Enter Username" name="uname" required>
+                  <label for="psw"><b>Password</b></label>
+                  <input class="txt" type="password" placeholder="Enter Password" name="psw" required>
+                  <a class="btns" type="submit" href="Work piece/index.html" aria-required="true">Login</button><br>
+                  <label>
+                      <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
+              </div>
+              <div class="container">
+                  <a href="" class="forget-psw">Forgot Password</a>
+          
+                  <!-- <button class="btn2" type="button" onclick="document.getElementById('id01').style.display = 'none'">Close</button> -->
+              </div>
+              </form>
+          </div>
+         </header>
+
+
+
+         <!-- CART -->
+<div class="cart" onclick="cartclick()">
+    <h2>YOUR CART</h2>
+    <div class="listCart">
+        <div class="item">
+             <img src="./images/Shopify img/IMG_20240109_040055.jpg">
+             <div class="context">
+                    <div class="name">
+                        Product Name
+                    </div>
+                    <div class="price">
+                        $60/ 1 product
+                    </div>
+             </div>
+             <div class="quantity">
+                <button>-</button>
+                <span class="value">3</span>
+                <button>+</button>
+             </div>
+        </div>
+    </div>
+    <div class="buttons">
+        <div class="close-btn">CLOSE</div>
+        <div class="checkout">
+            <a href="checkout.html">CHECKOUT</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- HOME SECTION -->
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>best purchase platform <span>that allows buyers take advantage of their income</span></h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit neque dolore amet ut aut facilis dolorum. Dicta, soluta. Fuga, molestiae.</p>
+    
+        <button class="home-btn">Learn More</button>
+        <button class="home-btn-active">Get a Quote</button>
+    </div>
+ 
+    <div class="image">
+        <img src="./New folder (4)/undraw_undraw_shopping_bags_2ude_-1-_mnw3.svg" alt="">
+    </div>
+
+    <button class="flex-btn">
+        <div class="btn-icon">
+        <i class="fa fa-play" aria-hidden="true"></i>
+    </div>
+
+    <a href="#" class="span">How it works</a>
+    </button>
+
+</section>
+
+
+<section class="categories">
+    <div class="container categories__container">
+        <div class="categories__left">
+            <h1>Categories</h1>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque nesciunt doloremque eveniet tempora necessitatibus cum explicabo ipsa id corrupti blanditiis voluptates nam pariatur, error, magnam quidem doloribus neque ad ea.         
+            </p>
+            <a href="#" class="btn-cart">Learn More</a>
+        </div>
+
+        <div class="categories__right">
+            <article class="category">
+                <span class="category__icon"><i class="fa fa-gamepad"></i></span>
+                <h5>Gaming</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, sit?</p>
+            </article>     
+
+            <article class="category">
+                <span class="category__icon"><i class="fa fa-spoon"></i></span>
+                <h5>Feeding</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, sit?</p>
+            </article>     
+
+            <article class="category">
+                <span class="category__icon"><i class="fa fa-puzzle-piece"></i></span>
+                <h5>Business</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, sit?</p>
+            </article>     
+
+            <article class="category">
+                <span class="category__icon"><i class="fa fa-tv"></i></span>
+                <h5>Electronics</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, sit?</p>
+            </article>     
+
+            <article class="category">
+                <span class="category__icon"><i class="fa fa-institution"></i></span>
+                <h5>Schooling</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, sit?</p>
+            </article>     
+
+            <article class="category">
+                <span class="category__icon"><i class="fa fa-shirtsinbulk"></i></span>
+                <h5>Clothing</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, sit?</p>
+            </article>     
+        </div>
+    </div>
+</section>
+<!-- =========================END OF CATEGORIES=================== -->
+
+
+
+
+<!-- <div class="grid">
+    <div class="grid-more">
+        <h2 class="welcome-msg">Welcome Message from our Founder</h2>
+
+        <img src="./images/download (21).jpg">
+        <h3>Our Values.</h3>
+            <li><span class="first">S</span>ales Service</li>
+            <li><span class="first">H</span>umility</li>
+            <li><span class="first">O</span>peness</li>
+            <li><span class="first">P</span>rincipled</li>
+            <li><span class="first">I</span>nternational</li>
+            <li><span class="first">F</span>airplay</li>
+            <li><span class="first">Y</span>ield Interest</li>
+
+
+        <br>
+        <p>Hello Distinguished Ladies and Gentlemen<br> Welcome to the e-commerce website, <br>
+            We are responsible for creating a healthy environment for shopping<br> as well as the ability to to control your income spending
+            <h4 class="msg"><i class="fa fa-shopping-bag"></i>Shopify</h4>
+            <br> A place where you purchase and shop <i class="fa fa-shopping-cart"></i>anywhere around the world 
+        </p>
+       <small>Dr.Jason Lee [CEO, Shopify]</small>
+       <small class="profile"></small>
+       
+       <div class="btn-button">
+        <a href="./pages/about.html" class="btn-cart">Learn More!</a>
+    </div>
+    </div>
+</div> -->
+
+
+
+<!-- <div class="note">
+    <div class="grid-container">
+        <div class="grid">
+        <div class="grid-img">
+            <img src="./Illustrations/undraw_business_chat_re_gg4h.svg" alt="">
+        </div>
+        <h3>Experience the Trends in Shopping</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur a. Numquam placeat eveniet quae.</p>
+         <button class="btn-cart">Learn More</button>
+    </div>
+    </div>
+
+        <div class="grid">
+        <h3>Experience the Trends</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, consectetur a. Numquam placeat eveniet quae.</p>
+        <button class="btn-cart">Learn More</button>
+    </div>
+    </div>
+
+</div> -->
+
+
+
+
+<section class="p-slider">
+
+    <h3 class="product-slider-heading">Product Slider</h3>
+
+    <button id="prev"> < </button>
+    
+    <div class="product-box">
+        <div class="p-img-container">
+            <div class="p-img">
+                <a href="#">
+                    <img src="./images/Shopify img/IMG_20240109_040055.jpg" class="p-img" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="p-box-text">
+
+            <div class="product-category">
+                <span>Electronics</span>
+            </div>
+            <a href="grid-pages-link/Electonic-Binatone.html" class="product-title">
+                Binatone
+            </a>
+            <a href="grid-pages-link/Electonic-Binatone.html"><button class="home-btn">Learn More</button></a>
+        </div>
+    </div>
+
+
+    <div class="product-box">
+        <div class="p-img-container">
+            <div class="p-img">
+                <a href="#">
+                    <img src="./images/Shopify img/IMG_20240109_031634.jpg" class="p-img" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="p-box-text">
+
+            <div class="product-category">
+                <span>Projector</span>
+            </div>
+            <a href="grid-pages-link/Projector-LG.html" class="product-title">
+                LG
+            </a>
+            <a href="grid-pages-link/Projector-LG.html"><button class="home-btn">Learn More</button></a>
+        </div>
+    </div>
+
+
+    <div class="product-box">
+        <div class="p-img-container">
+            <div class="p-img">
+                <a href="#">
+                    <img src="./images/Shopify img/IMG_20240109_031535.jpg" class="p-img" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="p-box-text">
+
+            <div class="product-category">
+                <span>Work Furniture</span>
+            </div>
+            <!-- <a href="grid-pages-link/Work-Furniture-D'-Ekops.html" class="product-title">
+                D'Ekops
+            </a> -->
+            <a href="grid-pages-link/Work-Furniture-D'-Ekops.html"><button class="home-btn">Learn More</button></a>
+        </div>
+    </div>
+
+
+    <div class="product-box">
+        <div class="p-img-container">
+            <div class="p-img">
+                <a href="grid-pages-link/Apple-MacBook.html">
+                    <img src="./images/Shopify img/IMG_20240109_031215.jpg" class="p-img" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="p-box-text">
+
+            <div class="product-category">
+                <span><i class="fa fa-apple"></i>MacBook</span>
+            </div>
+            <a href="#" class="product-title">
+                Apple Com.
+            </a>
+            <a href="grid-pages-link/Apple-MacBook.html"><button class="home-btn">Learn More</button></a>
+        </div>
+    </div>
+
+
+    <div class="product-box">
+        <div class="p-img-container">
+            <div class="p-img">
+                <a href="#">
+                    <img src="./images/Shopify img/IMG_20240109_032622.jpg" class="p-img" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="p-box-text">
+
+            <div class="product-category">
+                <span>AC Inverter controller</span>
+            </div>
+            
+            <a href="grid-pages-link/AC-Inverter.html" class="product-title">
+                Bruhm
+            </a>
+            <a href="grid-pages-link/AC-Inverter.html"><button class="home-btn">Learn More</button></a>
+        </div>
+    </div>
+
+
+    <div class="product-box">
+        <div class="p-img-container">
+            <div class="p-img">
+                <a href="#">
+                    <img src="./images/Shopify img/IMG_20240109_033043.jpg" class="p-img" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="p-box-text">
+
+            <div class="product-category">
+                <span>PS 5</span>
+            </div>
+            <a href="grid-pages-link/PS-5.html" class="product-title">
+               <i class="fa fa-gamepad"></i> Play Station
+            </a>
+            <a href="grid-pages-link/PS-5.html"><button class="home-btn">Learn More</button></a>
+        </div>
+    </div>
+
+
+    <button id="next"> > </button>
+           
+</section>
+
+
+
+
+
+
+<main>
+    <div class="container">
+        <h2>Products</h2>
+        <div class="products">
+            <div class="product">
+                <img class="bg-img" src="./Illustrations/undraw_data_processing_yrrv.svg"></img>
+                <h3>Product Name</h3>
+                <h5>$99.99</h5>
+                <button class="btn-cart" disabled onclick="addToCart('Product Name', 99.99)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="bg-img" src="./Illustrations/undraw_in_the_office_re_jtgc%20(2).svg"></img>
+                <h3>Product Name</h3>
+                <h5>$99.99</h5>
+                <button class="btn-cart" onclick="addToCart('Product Name', 99.99)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="bg-img" src="./Illustrations/undraw_delivery_truck_vt6p.svg"></img>
+                <h3>Product Name</h3>
+                <h5>$99.99</h5>
+                <button class="btn-cart" onclick="addToCart('Product Name', 99.99)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="bg-img" src="./Illustrations/undraw_design_tools_-42-tf.svg"></img>
+                <h3>Product Name</h3>
+                <h5>$99.99</h5>
+                <button class="btn-cart" onclick="addToCart('Product Name', 99.99)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="bg-img" src="./Illustrations/undraw_online_groceries_a02y.svg"></img>
+                <h3>Product Name</h3>
+                <h5>$99.99</h5>
+                <button class="btn-cart" onclick="addToCart('Product Name', 99.99)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="bg-img" src="./Illustrations/undraw_video_game_night_8h8m (1).svg"></img>
+                    <h3>Product Name</h3>
+                <h5>$99.99</h5>
+                <button class="btn-cart" onclick="addToCart('Product Name', 99.99)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="bg-img" src="./Illustrations/undraw_winter_skating_re_qouk.svg"></img>
+                <h3>Product Name</h3>
+                <h5>$99.99</h5>
+                <button class="btn-cart" onclick="addToCart('Product Name', 99.99)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img class="bg-img" src="./Illustrations/undraw_team_spirit_re_yl1v.svg"></img>
+                <h3>Product Name</h3>
+                <h5>$99.99</h5>
+                <button class="btn-cart" onclick="addToCart('Product Name', 99.99)">Add to Cart</button>
+            </div>
+
+           <a href=""><button class="btn" onclick="more()">More</button></a>
+
+        </div>
+</main>
+
+<!-- FOOTER -->
+
+<footer>
+    <div class="logo"><span class="fa fa-shopping-bag"></span>Shopify</div>
+    <div class="footer-col">
+        <h3>Tours</h3>
+        <li>London</li>
+        <li>Spain</li>
+        <li>Paris</li>
+        <li>Ireland</li>
+        <li>Portugal</li>
+        <li>Argentina</li>
+    </div>
+
+    <div class="footer-col">
+        <h3>Top Purchases</h3>
+        <li>Clothing</li>
+        <li>Accessories</li>
+        <li>Electronics</li>
+        <li>Feeding/Nutrition</li>
+        <li>Business</li>
+    </div>
+
+    <div class="footer-col">
+        <h3>Rememberance</h3>
+        <li>World Literacy Day</li>
+        <li>World Career Day</li>
+        <li>World Teachers Day</li>
+        <li>World Art Day</li>
+    </div>
+
+    <div class="footer-col">
+        <h3>Guide's</h3>
+        <li>Research</li>
+        <li>Experts</li>
+        <li>Jobs</li>
+        <li>Marketing Services</li>
+    </div>
+
+    <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>You can trust Reveal.Explore your potentials.</p>
+        <div class="subscribe">
+            <input type="text" placeholder="Your Email Address">
+            <a href="social-media.html" class="main-color">SUBSCRIBE</a>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p class="copyr">Copyright &copy; 2024 All Rights Reserved / This template is designed by Ekop Designz &trade;</p>
+        <div class="pro-links">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </div>
+</footer>
+
+
+
+<div class="loader"></div>
+
+        
+
+
+<script src="./js/main.js"></script>
+</body>
+</html>
