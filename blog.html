@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="fontawesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./pages.css">
+</head>
+<body>
+    
+    <header>
+        <i class="fa fa-bars" id="menu-bar"></i>
+          <div class="logo"><span class="fa fa-shopping-bag"></span>Shopify</div>
+          <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="./pages/shop.html">Shop</a></li>
+              <li><a href="./pages/blog.html">Blog</a></li>
+              <li><a href="./pages/about.html">About</a></li>
+              <li><a href="./pages/contact.html">Contact</a></li>
+          </ul>
+
+
+          <div class="icons">
+                <div id="menu-btn" class="fa fa-bars"></div>
+                <i class="fa fa-moon-o" onclick="themeToggler()"></i>
+                <!-- <i class="fa fa-sun-o" onclick="themeToggler()"></i> -->
+                <button class="cart-btn">
+                    <i class="fa fa-shopping-cart"></i>
+                    <small class="cart-qty">0</small>
+                </button>
+                <!-- <a href="" class="fa fa-shopping-cart"></a> -->
+                <div id="search-btn" class="fa fa-search"></div>
+            </div>
+
+          <!-- <button class="btn" onclick="document.getElementById('').style.display = 'block'"><a href="">Get a Quote</a></button> -->
+          <button class="btn" onclick="document.getElementById('id01').style.display = 'block'">Login</button>
+          
+          <!-- The Form -->
+          <div id="id01" class="modal">
+              <span onclick="document.getElementById('id01').style.display = 'none'" class="close" title="Close moadl">&times;</span>
+          
+              <!-- Form Content -->
+              <form class="modal-content animate" action="/action-page.php">
+                   <div class="imgcontainer" style="text-align: center;">
+                  <i class="fa fa-user" id="icon2"></i>
+              </div>
+              <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <input class="txt" type="text" placeholder="Enter Username" name="uname" required>
+                  <label for="psw"><b>Password</b></label>
+                  <input class="txt" type="password" placeholder="Enter Password" name="psw" required>
+                  <a class="btns" type="submit" href="admin dashboard/admin-dashboard.html" aria-required="true">Login</button><br>
+                  <label>
+                      <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
+              </div>
+              <div class="container">
+                  <a href="" class="forget-psw">Forgot Password</a>
+          
+                  <!-- <button class="btn2" type="button" onclick="document.getElementById('id01').style.display = 'none'">Close</button> -->
+              </div>
+              </form>
+          </div>
+         </header>
+
+
+         <section class="count">
+            <div class="box-container">  
+            <div class="box">
+                <i class="fa fa-graduation-cap"></i>
+                <div class="content">
+                    <h3 class="h">15 million+</h3>
+                    <p class="c">Products</p>
+                </div>
+            </div>
+            
+            <div class="box">
+                <i class="fa fa-user"></i>
+                <div class="content">
+                    <h3 class="h">11 Million+</h3>
+                    <p class="c">Sales per day</p>
+                </div>
+                <div class="btn">Learn More</div>
+            </div>
+            
+            <div class="box">
+                <i class="fa fa-user"></i>
+                <div class="content">
+                    <h3 class="h">80+</h3>
+                    <p class="c">staffs</p>
+                </div>
+            </div>
+            
+            <div class="box">
+                <i class="fa fa-book"></i>
+                <div class="content">
+                    <h3 class="h">100%</h3>
+                    <p class="c">satisfaction</p>
+                </div>
+            </div>
+            </div>
+            </section>  
+            
+
+
+<div class="video-body">
+    
+    <div class="v-heading">Video Gallery</div>
+
+    <div class="video-container">
+
+     <div class="video">
+        <video src="./videos/bandicam 2024-01-02 17-58-24-647.mp4" muted></video>
+     </div>
+
+     <div class="video">
+        <video src="./videos/bandicam 2024-01-02 23-25-50-717.mp4" muted></video>
+     </div>
+     
+     <div class="video">
+        <video src="./videos/bandicam 2024-01-02 23-26-05-375.mp4" muted></video>
+     </div>
+     
+     <div class="video">
+        <video src="./videos/bandicam 2024-01-02 23-27-52-549.mp4" muted></video>
+     </div>
+     
+     <div class="video">
+        <video src="./videos/Introduction.mp4" muted></video>
+     </div>
+     
+     <div class="video">
+        <video src="./videos/Shopify 2.mp4" muted></video>
+     </div>
+     
+     <div class="video">
+        <video src="./videos/vlc 2024-01-07 16-33-05-367.mp4" muted></video>
+     </div>
+     
+</div>
+
+
+<div class="loader"></div>
+
+
+
+</body>
+</html>

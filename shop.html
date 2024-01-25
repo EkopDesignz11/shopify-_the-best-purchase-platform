@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify</title>
+
+    <link rel="stylesheet" href="fontawesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./pages.css">
+</head>
+<body>
+
+<header>
+        <i class="fa fa-bars" id="menu-bar"></i>
+          <div class="logo"><span class="fa fa-shopping-bag"></span>Shopify</div>
+          <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Shop</a></li>
+              <li><a href=".blog.html">Blog</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+          </ul>
+
+          <div class="icons">
+                <div id="menu-btn" class="fa fa-bars"></div>
+                <button class="cart-btn">
+                 <i class="fa fa-shopping-cart"></i>
+                    <small class="cart-qty">0</small>
+                </button>
+                <!-- <a href="" class="fa fa-shopping-cart"></a> -->
+                <div id="search-btn" class="fa fa-search"></div>
+            </div>
+
+          <!-- <button class="btn" onclick="document.getElementById('').style.display = 'block'"><a href="">Get a Quote</a></button> -->
+          <button class="btn" onclick="document.getElementById('id01').style.display = 'block'">Login</button>
+          
+          <!-- The Form -->
+          <div id="id01" class="modal">
+              <span onclick="document.getElementById('id01').style.display = 'none'" class="close" title="Close moadl">&times;</span>
+          
+              <!-- Form Content -->
+              <form class="modal-content animate" action="/action-page.php">
+                   <div class="imgcontainer" style="text-align: center;">
+                  <i class="fa fa-user" id="icon2"></i>
+              </div>
+              <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <input class="txt" type="text" placeholder="Enter Username" name="uname" required>
+                  <label for="psw"><b>Password</b></label>
+                  <input class="txt" type="password" placeholder="Enter Password" name="psw" required>
+                  <a class="btns" type="submit" href="admin dashboard/admin-dashboard.html" aria-required="true">Login</button><br>
+                  <label>
+                      <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
+              </div>
+              <div class="container">
+                  <a href="" class="forget-psw">Forgot Password</a>
+          
+                  <!-- <button class="btn2" type="button" onclick="document.getElementById('id01').style.display = 'none'">Close</button> -->
+              </div>
+              </form>
+          </div>
+</header>
+
+                  
+<main>
+                <div class="container">
+                    <div class="products">
+                        <div class="product">
+                            <img class="bg-img" src="./Illustrations/undraw_data_processing_yrrv.svg"></img>
+                            <h3>Product Name</h3>
+                            <h5>$99.99</h5>
+                            <button class="btn-cart" disabled>Add to Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="bg-img" src="./Illustrations/undraw_design_tools_-42-tf.svg"></img>
+                            <h3>Product Name</h3>
+                            <h5>$99.99</h5>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="bg-img" src="./Illustrations/undraw_design_tools_-42-tf.svg"></img>
+                            <h3>Product Name</h3>
+                            <h5>$99.99</h5>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="bg-img" src="./Illustrations/undraw_design_tools_-42-tf.svg"></img>
+                            <h3>Product Name</h3>
+                            <h5>$99.99</h5>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="bg-img" src="./Illustrations/undraw_design_tools_-42-tf.svg"></img>
+                            <h3>Product Name</h3>
+                            <h5>$99.99</h5>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="bg-img" src="./Illustrations/undraw_video_game_night_8h8m (1).svg"></img>
+                            <h3>Product Name</h3>
+                            <h5>$99.99</h5>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="bg-img" src="./Illustrations/undraw_winter_skating_re_qouk.svg"></img>
+                            <h3>Product Name</h3>
+                            <h5>$99.99</h5>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="bg-img" src="./Illustrations/undraw_team_spirit_re_yl1v.svg"></img>
+                            <h3>Product Name</h3>
+                            <h5>$99.99</h5>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="bg-img" src="./Illustrations/undraw_teaching_re_g7e3.svg"></img>
+                            <h3>Product Name</h3>
+                            <h5>$99.99</h5>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="bg-img" src="./Illustrations/undraw_track_and_field_-33-qn.svg"></img>
+                            <h3>Product Name</h3>
+                            <h5>$99.99</h5>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="bg-img" src="./Illustrations/undraw_eating_together_re_ux62.svg"></img>
+                            <h3>Product Name</h3>
+                            <h5>$99.99</h5>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="bg-img" src="./Illustrations/undraw_home_settings_re_pkya.svg"></img>
+                            <h3>Product Name</h3>
+                            <h5>$99.99</h5>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                        <div class="product">
+                            <img class="bg-img" src="./Illustrations/undraw_in_the_office_re_jtgc.svg"></img>
+                            <h3>Product Name</h3>
+                            <h5>$99.99</h5>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+</main>
+
+
+           <div class="cart-overlay"></div>
+
+           <div class="cart">
+               <div class="cart-header">
+                   <i class="fa fa-arrow-right cart-close"></i>
+                   <h2>Your Cart</h2>
+               </div>
+               <div class="cart-body">
+ <div class="cart-item">
+                       <div class="bg-img"></div>
+                       <div class="cart-item-detail">
+                        <h3>Product Name</h3>
+                        <h5>$99.99</h5>
+                        <div class="cart-item-amount">
+                               <i class="fa fa-minus"></i>
+                            <span class="qty">0</span>
+                               <i class="fa fa-plus"></i>
+                            <span class="cart-item-price">0</span>
+                        </div>
+                       </div>
+                   </div>
+ <!-- <div class="cart-item">
+                       <div class="bg-img"></div>
+                       <div class="cart-item-detail">
+                        <h3>Product Name</h3>
+                        <h5>$99.99</h5>
+                        <div class="cart-item-amount">
+                               <i class="fa fa-minus"></i>
+                            <span class="qty">0</span>
+                               <i class="fa fa-plus"></i>
+                            <span class="cart-item-price">0</span>
+                        </div>
+                       </div>
+                   </div>
+ <div class="cart-item">
+                       <div class="bg-img"></div>
+                       <div class="cart-item-detail">
+                        <h3>Product Name</h3>
+                        <h5>$99.99</h5>
+                        <div class="cart-item-amount">
+                               <i class="fa fa-minus"></i>
+                            <span class="qty">0</span>
+                               <i class="fa fa-plus"></i>
+                            <span class="cart-item-price">0</span>
+                        </div>
+                       </div>
+                   </div>
+ <div class="cart-item">
+                       <div class="bg-img"></div>
+                       <div class="cart-item-detail">
+                        <h3>Product Name</h3>
+                        <h5>$99.99</h5>
+                        <div class="cart-item-amount">
+                               <i class="fa fa-minus"></i>
+                            <span class="qty">0</span>
+                               <i class="fa fa-plus"></i>
+                            <span class="cart-item-price">0</span>
+                        </div>
+                       </div>
+                   </div>
+ <div class="cart-item">
+                       <div class="bg-img"></div>
+                       <div class="cart-item-detail">
+                        <h3>Product Name</h3>
+                        <h5>$99.99</h5>
+                        <div class="cart-item-amount">
+                               <i class="fa fa-minus"></i>
+                            <span class="qty">0</span>
+                               <i class="fa fa-plus"></i>
+                            <span class="cart-item-price">0</span>
+                        </div>
+                       </div>
+                   </div>
+ <div class="cart-item">
+                       <div class="bg-img"></div>
+                       <div class="cart-item-detail">
+                        <h3>Product Name</h3>
+                        <h5>$99.99</h5>
+                        <div class="cart-item-amount">
+                               <i class="fa fa-minus"></i>
+                            <span class="qty">0</span>
+                               <i class="fa fa-plus"></i>
+                            <span class="cart-item-price">0</span>
+                        </div>
+                       </div>
+                   </div>
+ <div class="cart-item">
+                       <div class="bg-img"></div>
+                       <div class="cart-item-detail">
+                        <h3>Product Name</h3>
+                        <h5>$99.99</h5>
+                        <div class="cart-item-amount">
+                               <i class="fa fa-minus"></i>
+                            <span class="qty">0</span>
+                               <i class="fa fa-plus"></i>
+                            <span class="cart-item-price">0</span>
+                        </div>
+                       </div>
+                   </div>
+ <div class="cart-item">
+                       <div class="bg-img"></div>
+                       <div class="cart-item-detail">
+                        <h3>Product Name</h3>
+                        <h5>$99.99</h5>
+                        <div class="cart-item-amount">
+                               <i class="fa fa-minus"></i>
+                            <span class="qty">0</span>
+                               <i class="fa fa-plus"></i>
+                            <span class="cart-item-price">0</span>
+                        </div>
+                       </div>
+                   </div>
+ <div class="cart-item">
+                       <div class="bg-img"></div>
+                       <div class="cart-item-detail">
+                        <h3>Product Name</h3>
+                        <h5>$99.99</h5>
+                        <div class="cart-item-amount">
+                               <i class="fa fa-minus"></i>
+                            <span class="qty">0</span>
+                               <i class="fa fa-plus"></i>
+                            <span class="cart-item-price">0</span>
+                        </div>
+                       </div>
+                   </div> -->
+               </div>
+               <div class="cart-footer">
+                   <div>
+                       <strong>Total</strong>
+                       <span class="cart-total">0</span>
+                   </div>
+                   <button class="cart-clear">Clear Cart</button>
+                   <button class="checkout">Checkout</button>
+               </div>
+           </div>
+
+
+
+
+
+
+
+
+
+
+
+           <div class="loader"></div>
+
+
+           
+<script src="pages.js"></script>
+</body>
+</html>
