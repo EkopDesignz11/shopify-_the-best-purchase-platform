@@ -1,0 +1,38 @@
+Login
+Phone No
+Your Phone Number
+
+Email Address
+Your Email Address
+
+Password
+forgot password
+
+Login
+or
+social media links{
+facebook
+google
+}
+
+
+
+
+Signup
+
+Email Address
+Verification Code[ Get Code ]
+Username
+Password
+Confirm Password
+Male/Female
+
+
+Sign btn
+
+I have read and I accept Terms and Conditions
+or
+social media links{
+facebook
+google
+}

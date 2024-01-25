@@ -1,0 +1,26 @@
+Favourite btn
+Share btn
+Phone Details
+PickOut Station{
+Door Delivery
+Pickup Station
+
+}
+
+Product Ratings
+Description
+Warranty
+
+
+
+
+ACCOUNT
+
+-------------------WELCOME TO (Name)------------------
+email add
+continue btn
+
+or login with passkeys
+
+
+login to other social medias
